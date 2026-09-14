@@ -1,5 +1,6 @@
-a = float(input("Bilangan pertama: "))
+# Membandingkan dua bilangan menggunakan nested if
 
+a = float(input("Bilangan pertama: "))
 b = float(input("Bilangan kedua: "))
 
 if a >= b:
