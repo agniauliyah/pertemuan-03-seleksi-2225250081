@@ -1,3 +1,5 @@
+# Menentukan apakah bilangan termasuk genap atau ganjil
+
 bilangan = int(input("Masukkan bilangan bulat: "))
 
 if bilangan % 2 == 0:
