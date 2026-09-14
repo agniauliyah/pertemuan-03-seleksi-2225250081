@@ -1,3 +1,6 @@
+# Input: tiga panjang sisi
+# Proses: mengecek syarat segitiga lalu menentukan jenis segitiga
+# Output: menampilkan jenis segitiga atau tidak membentuk segitiga
 a = float(input("Sisi a: "))
 b = float(input("Sisi b: "))
 c = float(input("Sisi c: "))
@@ -12,4 +15,3 @@ if a + b > c and a + c > b and b + c > a:
             print("Segitiga sembarang")
 else:
     print("Ketiga sisi tidak membentuk segitiga")
-    
